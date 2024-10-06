@@ -23,7 +23,7 @@ app.use('/api/product',productRoute);
 //Connection with the Database
 mongoose
   .connect(
-    'mongodb+srv://admin:13TUdekhs@backenddb.xs7qg.mongodb.net/?retryWrites=true&w=majority&appName=BackEndDB'
+    '/*Connection String*/'
   )
   .then(() => {
     console.log('Hii,this is connected!!');
